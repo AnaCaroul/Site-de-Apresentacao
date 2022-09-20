@@ -1,0 +1,56 @@
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    justify-content: center;
+    align-items: center;
+    column-gap: 60%;
+    
+}
+
+.top p{
+    font-size: 18px;
+    font-family: 'Open sans';
+    font-weight: 700;
+    margin-left: 50%;
+}
+
+.top_ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top_ a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#titulo_do_site {
+    color: #141C3A;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0;
+
+}
+
+#p1 {
+    color: rgba(25, 35, 70, 0.781);
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+   
+}
