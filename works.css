@@ -1,0 +1,70 @@
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5E17EB;
+}
+
+body{
+margin: 0;
+ display: grid;
+ grid-template-columns: 9% 91%;
+ width: 100%;
+ height: 100vh;
+}
+
+.grid-canto{
+    display: grid;
+    grid-template-rows: auto auto 6% 6% 4% auto;
+    height: 100vh;
+
+}
+
+.grid-canto h4{
+    color: #141C3a;
+    font-size: 40px;
+    font-family: 'Work sans';
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#logo{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    width: 100%;
+}
+
+.redes-sociais{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 90%;
+    column-gap: 3%;
+}
+
+.conteudo{
+    background-color: #620FCE;
+    width: 100%;
+    
+}
+
+.sites {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.sites- {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 100%;
+
+}
+
